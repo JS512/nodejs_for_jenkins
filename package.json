@@ -2,9 +2,9 @@
   "name": "jenkins_with_nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -15,6 +15,6 @@
     "gh-pages": "^6.1.1"
   },
   
-  "homepage" : "https://JS512.github.io/nodejs_for_jenkins/"
+  "homepage" : "https://js512.github.io/nodejs_for_jenkins/"
   
 }
